@@ -1,0 +1,13 @@
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+th {
+    font-family: "Nunito", sans-serif;
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}

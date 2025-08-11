@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #4bbff7;
+    --primary-color: #2ba0da;
     --secondary-color: #070707;
     --accent1-color: #df0e05;
     --accent2-color: #ffffff;
@@ -42,6 +42,59 @@ h6 {
     color: var(--primary-color)
 }
 
+.mainh1 {
+    font-family: "Comic Neue", cursive;
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 100px;
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    /* border: 2px solid black; */
+
+}
+
+.continf {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: 1px dotted black; */
+    border-radius: 50px;
+    margin: 70px 50px 70px 50px;
+
+}
+
+.continf section {
+    /* border: 1px dotted black; */
+    padding: 0;
+    margin: 0
+}
+
+.continf section article {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px dotted black; */
+    padding: 0;
+    margin: 0;
+
+}
+
+.contdes img {
+    width: 60px;
+    height: 60px;
+    /* border: 1px dotted black; */
+    margin: 20px 10px 20px 30px;
+}
+
+.contdes p {
+    /* border: 1px dotted black; */
+    padding: 17px 17px 10px 17px;
+    margin: 20px 10px 20px 30px;
+}
+
+.map {
+    border-radius: 50px;
+}
 
 .place {
     padding: 0;
@@ -59,6 +112,28 @@ h6 {
     text-align: center;
     flex: 1 1 110%;
     font-size: 100%;
+    /* border: 2px solid black; */
+}
+
+
+
+.place ul li a {
+    font-family: var(--heading-font);
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+    /* background-color: #070707; */
+
+}
+
+.place ul li a:hover {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: 900;
+
+
 }
 
 .navleft {
@@ -111,6 +186,225 @@ body {
 .hero article img {
     width: 150px;
     float: right;
+}
+
+.cont {
+    background-color: var(--accent2-color);
+    border-radius: 50px;
+    /* border: 1px solid black; */
+}
+
+.cont article {
+    color: var(--secondary-color);
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 0;
+    /* border: 1px solid black; */
+    font-size: 1.3rem;
+    margin: 0px 55px 0px 55px
+}
+
+.imgrad section {
+    /* border: 1px dashed black; */
+    padding: 0;
+    width: 614px;
+    height: 100%;
+    border-radius: 35px;
+    margin-left: 90px;
+    position: relative;
+}
+
+.imgrad section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 35px;
+    /* border: 5px solid black; */
+}
+
+.imgrad section h2 {
+    position: absolute;
+    bottom: 40px;
+    margin: 10px 15px 30px 240px;
+    padding: 8px 35px ;
+    font-size: 2.5rem;
+    border-radius: 20px;
+    background-color: var(--accent2-color);
+    /* text-align: center; */
+    /* border: 1px solid var(--accent1-color); */
+
+}
+
+.imgrad section article {
+    padding: 8px;
+    margin: 10px 15px 10px 90px;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    border-radius: 20px;
+    border: 1px solid var(--accent1-color);
+}
+
+/* .div3 {
+    background-color: var(--secondary-color);
+    padding-top: 100px;
+} */
+
+.secA,
+.secB,
+.secC,
+.secD,
+.secE,
+.secF {
+    /* border: 1px dashed black; */
+    padding-left: 40px;
+}
+
+.secA {
+    display: flex;
+}
+
+.secA input,
+.secB input {
+    width: 210px;
+    height: 22px;
+    border-bottom: 1.5px solid var(--secondary-color);
+    border-radius: 7px;
+    padding: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.secC input {
+    width: 500px;
+    height: 22px;
+    border: 1.5px solid var(--secondary-color);
+    border-radius: 7px;
+    padding: 15px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.secF input {
+    margin-right: 30px;
+    margin-top: 5px;
+}
+
+.secA label {
+    padding: 0px 10px 0px 0px;
+    /* border: 1px dotted black; */
+}
+
+.secB label {
+    padding: 0px 10px 0px 0px;
+    /* border: 1px dotted black; */
+}
+
+.secC label {
+    padding: 0px 50px 0px 0px;
+    /* border: 1px dotted black; */
+}
+
+.secF label {
+    /* border: 1px solid black; */
+    margin-bottom: px;
+
+}
+
+.secD p {
+    padding: 0;
+    margin: 0;
+    /* border: 1px dotted black; */
+}
+
+/* .secA article {
+    padding: 0;
+    margin: 0 ;
+    border: 1px dashed;
+} */
+
+.art1 {
+    /* border: 1px solid black; */
+    padding: 0;
+    height: 55px;
+    margin: 0px 70px 0px 0px;
+}
+
+.art2 {
+    /* border: 1px solid black; */
+    padding: 0;
+    height: 55px;
+    margin: 0;
+}
+
+.secD input {
+    margin: 10px 35px 10px 55px;
+    height: 15px;
+    width: 15px;
+}
+
+.secD p {
+    margin: 5px;
+}
+
+.secE textarea {
+    width: 500px;
+    border: 1.0px solid black;
+    border-radius: 7px;
+}
+
+.secF input {
+    width: 20px;
+    height: 20px;
+}
+
+fieldset {
+    /* background-color: var(--primary-color); */
+    /* color: var(); */
+    margin: 40px 120px 40px 85px;
+    width: 612px;
+    padding-top: 20px;
+    /* border: 1.5px solid var(--accent1-color); */
+    border-top: 5px solid var(--primary-color);
+    /* border-radius: 35px; */
+    border-bottom: 0;
+    border-left: 0;
+    border-right: 0;
+
+}
+
+legend {
+    margin: 0px 240px 0px 240px;
+
+}
+
+button {
+    padding: 10px 15px 10px 15px;
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-family: var(--body-font);
+    border-radius: 10px;
+    margin: 100px 0px 0px 180px;
+    width: 150px;
+    border: 0;
+    background-color: var(--primary-color);
+}
+
+button:hover {
+    padding: 10px 15px 10px 15px;
+    color: var(--accent2-color);
+    font-weight: 900;
+    font-size: 1.2rem;
+    width: 250px;
+    font-family: var(--body-font);
+    border-radius: 10px;
+    margin: 100px 0px 0px 180px;
+    width: 170px;
+    border: 0;
+    background-color: var(--primary-color);
 }
 
 .sec1 {
