@@ -64,13 +64,13 @@ h6 {
 
 }
 
-.continf section {
+.continf div {
     /* border: 1px dotted black; */
     padding: 0;
     margin: 0
 }
 
-.continf section article {
+.continf div div {
     display: flex;
     flex-direction: row;
     /* border: 1px dotted black; */
@@ -194,7 +194,7 @@ body {
     /* border: 1px solid black; */
 }
 
-.cont article {
+.cont p {
     color: var(--secondary-color);
     text-align: center;
     padding-bottom: 40px;
