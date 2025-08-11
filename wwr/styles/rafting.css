@@ -247,8 +247,9 @@ body {
 }
 
 .map iframe {
-    width: 420;
-    height: 307;
+    width: 360px;
+    height: 280px;
+    border-radius: 20px;
 }
 
 /* .div3 {
