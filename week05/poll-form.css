@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+main,
+footer {
+    width: 500px;
+    margin: 0 auto;
+    font-family: "Archivo", sans-serif;
+}
+
+h1,
+legend {
+    color: blue;
+    text-align: left;
+}
+
+fieldset {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+label,
+input,
+select {
+    padding: 2px;
+    margin: 5px;
+}
+
+.speclabel {
+    padding: 10px;
+}
+
+textarea {
+    width: 400px;
+}
+
+button {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    border-radius: 7px;
+    border: none;
+    font-family: "Archivo", sans-serif;
+    font-weight: bold;
+}
