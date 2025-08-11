@@ -204,17 +204,17 @@ body {
     margin: 0px 55px 0px 55px
 }
 
-.imgrad section {
+.imgrad div {
     /* border: 1px dashed black; */
     padding: 0;
     width: 614px;
     height: 100%;
     border-radius: 35px;
-    margin-left: 90px;
+    margin: 10px 0px 30px 90px;
     position: relative;
 }
 
-.imgrad section img {
+.imgrad div img {
     display: block;
     width: 100%;
     height: auto;
@@ -222,11 +222,11 @@ body {
     /* border: 5px solid black; */
 }
 
-.imgrad section h2 {
+.imgrad div h2 {
     position: absolute;
     bottom: 40px;
     margin: 10px 15px 30px 240px;
-    padding: 8px 35px ;
+    padding: 8px 35px;
     font-size: 2.5rem;
     border-radius: 20px;
     background-color: var(--accent2-color);
@@ -235,7 +235,7 @@ body {
 
 }
 
-.imgrad section article {
+.imgrad div p {
     padding: 8px;
     margin: 10px 15px 10px 90px;
     position: absolute;
@@ -265,6 +265,10 @@ body {
     display: flex;
 }
 
+.secC {
+    margin-bottom: 30px;
+}
+
 .secA input,
 .secB input {
     width: 210px;
@@ -288,6 +292,10 @@ body {
     border-right: 0;
 }
 
+/* .secE {
+    margin: : 50px;
+} */
+
 .secF input {
     margin-right: 30px;
     margin-top: 5px;
@@ -310,9 +318,11 @@ body {
 
 .secF label {
     /* border: 1px solid black; */
-    margin-bottom: px;
+    margin-bottom: 10px;
 
 }
+
+
 
 .secD p {
     padding: 0;
