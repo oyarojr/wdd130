@@ -246,6 +246,11 @@ body {
     border: 1px solid var(--accent1-color);
 }
 
+.map iframe {
+    width: 420;
+    height: 307;
+}
+
 /* .div3 {
     background-color: var(--secondary-color);
     padding-top: 100px;
