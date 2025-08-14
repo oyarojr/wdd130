@@ -333,10 +333,9 @@ body {
     top: 40px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #df0e05;
+    background-color: var(--accent1-color);
     /* left: 40px; */
     color: var(--accent2-color);
-    background-color: var()
 }
 
 .p1 {
