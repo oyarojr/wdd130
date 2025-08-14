@@ -116,7 +116,6 @@ h6 {
 }
 
 
-
 .place ul li a {
     font-family: var(--heading-font);
     text-decoration: none;
@@ -153,6 +152,87 @@ body {
 
 .socialmedia a {
     text-decoration: none;
+}
+
+.tripbacky {
+    position: relative;
+}
+
+.tripbacky h1 {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    opacity: 0.8;
+}
+
+.tripbacky p {
+    background-color: var(--primary-color);
+    font-family: var(--body-font);
+    margin: 0;
+    font-size: 1.3rem;
+    width: 800px;
+    position: absolute;
+    top: 320px;
+    left: 40px;
+    opacity: .8;
+}
+
+.gA {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.tripcont {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    /* width: 660px; */
+}
+
+.tripcont h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.tripcont p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gC {
+    grid-column: 2/4;
+    grid-row: 2/3;
+}
+
+.gD {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+
+.gD h1 {
+    text-align: center;
+    font-size: 50px;
+}
+.gD p {
+    font-size: 2rem;
+    text-align: center; 
+}
+
+.coolimg div {
+    border-radius: 25px;
+    border: 2px solid black;
+    width: 335px;
+}
+
+.coolimg div article {
+    width: 333px;
+}
+
+.coolimg div img {
+    border-radius: 25px;
 }
 
 .hero {
@@ -381,6 +461,12 @@ body {
     border-radius: 25px;
 }
 
+.gridy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
 .secA,
 .secB,
 .secC,
@@ -551,6 +637,26 @@ legend {
     padding: 8px;
 
 }
+
+.tbl {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+
+.tblhd tr th {
+    border: 1px solid black;
+    width: 100px;
+    height: 70px;
+}
+
+.tblbd tr td,
+th {
+    border: 1px solid black;
+    width: 100px;
+    height: 70px;
+}
+
 
 button {
     padding: 10px 15px 10px 15px;
