@@ -186,6 +186,10 @@ body {
     grid-row: 1/5;
 }
 
+.gA div{
+    margin: 20px 0px 20px 0px;
+}
+
 .tripcont {
     grid-column: 2/4;
     grid-row: 1/2;
@@ -216,9 +220,28 @@ body {
     text-align: center;
     font-size: 50px;
 }
+
 .gD p {
     font-size: 2rem;
-    text-align: center; 
+    text-align: center;
+}
+
+.gD button {
+    margin-left: 240px;
+    margin-top: 50px;
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+}
+
+.gE {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    text-align: right;
+}
+
+.gE p {
+    padding: 0;
+    margin: 0;
 }
 
 .coolimg div {
@@ -233,6 +256,11 @@ body {
 
 .coolimg div img {
     border-radius: 25px;
+}
+
+.coolimg div p{
+    padding: 0;
+    margin: 0;
 }
 
 .hero {
