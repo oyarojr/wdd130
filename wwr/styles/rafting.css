@@ -186,7 +186,7 @@ body {
     grid-row: 1/5;
 }
 
-.gA div{
+.gA div {
     margin: 20px 0px 20px 0px;
 }
 
@@ -233,6 +233,15 @@ body {
     border: 2px solid var(--primary-color);
 }
 
+.gD button a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.gD button a:hover {
+    color: var(--accent2-color)
+}
+
 .gE {
     grid-column: 2/4;
     grid-row: 4/5;
@@ -258,7 +267,7 @@ body {
     border-radius: 25px;
 }
 
-.coolimg div p{
+.coolimg div p {
     padding: 0;
     margin: 0;
 }
