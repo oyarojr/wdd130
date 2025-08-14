@@ -289,7 +289,8 @@ body {
     width: 100%;
     padding-top: 20px;
     padding-bottom: 20px;
-    /* border: 2px var(--secondary-color) solid; */
+    /* border: 2px solid var(--accent2-color); */
+    font-size: 45px;
     text-align: center;
 
 }
@@ -303,6 +304,11 @@ body {
 .hero article img {
     width: 150px;
     float: right;
+    margin-top: 60px;
+}
+
+.hero article h2 {
+    margin-left: 30px;
 }
 
 .cont {
@@ -745,6 +751,7 @@ button:hover {
 }
 
 .sec1 h2 {
+    font-size: 2rem;
     grid-column: 1/4;
     text-align: center;
 }
@@ -755,9 +762,11 @@ button:hover {
 }
 
 .sec2 h2 {
+    font-size: 2rem;
     grid-column: 1/6;
     text-align: center;
     padding-bottom: 10px;
+    /* margin-bottom: 20px; */
 }
 
 .sec2 img {
